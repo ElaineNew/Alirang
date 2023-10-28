@@ -1,0 +1,24 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: serif;
+}
+p{
+  margin: 0;
+}
+.body{
+  background-color: rgba(231, 205, 99,0.5);
+}
+.text-theme{
+  color: rgb(231, 205, 99);
+}
+.bg-theme{
+  background-color: rgb(231, 205, 99);
+}
+
+.img-logo{
+  height: 60px;
+}

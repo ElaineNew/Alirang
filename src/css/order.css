@@ -1,0 +1,34 @@
+.order{
+  display: flex;
+  justify-content: center;
+}
+
+.order .items{
+  width: 80%;
+  flex: 1;
+}
+
+.sidebar{
+ width: 100px;
+ height: 800px;
+}
+
+@media screen and (max-width:750px){
+  .order{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  .order .items{
+    width: 100%;
+    overflow-y: auto;
+
+  }
+  .topmenu{
+    display: none;
+  }
+}
+

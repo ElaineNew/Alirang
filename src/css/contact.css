@@ -1,0 +1,14 @@
+.contact .container{
+  display: flex;
+}
+.phone{
+  margin-left: 20px;
+}
+
+@media (max-width:800px) {
+  .contact .container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
